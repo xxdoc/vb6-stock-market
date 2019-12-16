@@ -1,0 +1,38 @@
+2010/12/09 22:05:43  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT UG.*  FROM PAY_NAME UG ORDER BY UG.PAY_NAME DESC  SQL2 -> SELECT COUNT(*)  FROM PAY_NAME UG > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+PAY_NAME
+At line 1, column 28
+IBCODE=isc_dsql_error
+>
+2010/12/09 22:05:43  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT UG.*  FROM PAY_NAME UG ORDER BY UG.PAY_NAME DESC  SQL2 -> SELECT COUNT(*)  FROM PAY_NAME UG > : System error message <Operation is not allowed when the object is closed.>
+2010/12/09 22:05:47  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT MR.* FROM ENTERPRISE MR ORDER BY ENTERPRISE_CODE  ASC  SQL2 -> SELECT COUNT(*) FROM ENTERPRISE MR > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ENTERPRISE
+At line 1, column 29
+IBCODE=isc_dsql_error
+>
+2010/12/09 22:05:47  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT MR.* FROM ENTERPRISE MR ORDER BY ENTERPRISE_CODE  ASC  SQL2 -> SELECT COUNT(*) FROM ENTERPRISE MR > : System error message <Operation is not allowed when the object is closed.>
+2010/12/09 22:09:01  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT COUNT(*) FROM USER_ACCOUNT  SQL2 -> > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+USER_ACCOUNT
+At line 1, column 22
+IBCODE=isc_dsql_error
+>
+2010/12/09 22:09:01  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT COUNT(*) FROM USER_ACCOUNT  SQL2 -> > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+USER_ACCOUNT
+At line 1, column 22
+IBCODE=isc_dsql_error
+>

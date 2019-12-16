@@ -1,0 +1,127 @@
+2010/12/12 16:11:13  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT UG.*,MR1.KEY_NAME BBANK_NAME  FROM PRINT_CHEQUE_LOG UG LEFT OUTER JOIN CHEQUE_CONFIG CC ON (UG.CHEQUE_TYPE = CC.CHEQUE_NAME) LEFT OUTER JOIN MASTER_REF MR1 ON (CC.BBANK_ID = MR1.KEY_ID) ORDER BY UG.PRINT_CHEQUE_ID DESC ROWS 1 TO 20  SQL2 -> SELECT COUNT(*)  FROM PRINT_CHEQUE_LOG UG LEFT OUTER JOIN CHEQUE_CONFIG CC ON (UG.CHEQUE_TYPE = CC.CHEQUE_NAME) LEFT OUTER JOIN MASTER_REF MR1 ON (CC.BBANK_ID = MR1.KEY_ID) > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+PRINT_CHEQUE_LOG
+At line 1, column 60
+IBCODE=isc_dsql_error
+>
+2010/12/12 16:12:25  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT UG.*,MR1.KEY_NAME BBANK_NAME  FROM PRINT_CHEQUE_LOG UG LEFT OUTER JOIN CHEQUE_CONFIG CC ON (UG.CHEQUE_TYPE = CC.CHEQUE_NAME) LEFT OUTER JOIN MASTER_REF MR1 ON (CC.BBANK_ID = MR1.KEY_ID) ORDER BY UG.PRINT_CHEQUE_ID DESC ROWS 1 TO 20  SQL2 -> SELECT COUNT(*)  FROM PRINT_CHEQUE_LOG UG LEFT OUTER JOIN CHEQUE_CONFIG CC ON (UG.CHEQUE_TYPE = CC.CHEQUE_NAME) LEFT OUTER JOIN MASTER_REF MR1 ON (CC.BBANK_ID = MR1.KEY_ID) > : System error message <Prepare:
+SQLCODE=-204:
+Dynamic SQL Error
+SQL error code = -204
+Table unknown
+PRINT_CHEQUE_LOG
+At line 1, column 60
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:03:54  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Execute:
+SQLCODE=-413:
+conversion error from string "ADMIN"
+IBCODE=isc_convert_error
+>
+2010/12/12 21:03:54  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Execute:
+SQLCODE=-413:
+conversion error from string "ADMIN"
+IBCODE=isc_convert_error
+>
+2010/12/12 21:18:05  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-206:
+Dynamic SQL Error
+SQL error code = -206
+Column unknown
+CREATE_DATE
+At line 1, column 75
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:18:05  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-206:
+Dynamic SQL Error
+SQL error code = -206
+Column unknown
+CREATE_DATE
+At line 1, column 75
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:20:31  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Execute:
+SQLCODE=-625:
+validation error for column STOCK_MARKET_ID, value "*** null ***"
+IBCODE=isc_not_valid
+>
+2010/12/12 21:20:31  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Execute:
+SQLCODE=-625:
+validation error for column STOCK_MARKET_ID, value "*** null ***"
+IBCODE=isc_not_valid
+>
+2010/12/12 21:23:26  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-104:
+Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 58
+ORDER
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:23:26  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-104:
+Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 58
+ORDER
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:29:53  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-104:
+Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 58
+ORDER
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:29:53  Project name <StockMarket> : Module name <clsDaily> :Routine name <AddEditStockMarket> : Local error message <Runtime error.> : System error message <Prepare:
+SQLCODE=-104:
+Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 58
+ORDER
+IBCODE=isc_dsql_error
+>
+2010/12/12 21:31:49  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 21:31:50  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 21:31:51  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 21:32:50  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 21:32:51  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 21:32:52  Project name <StockMarket> : Module name <frmChequeLog> :Routine name <UnboundReadData> : Local error message <> : System error message <Item cannot be found in the collection corresponding to the requested name or ordinal.>
+2010/12/12 23:36:34  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Prepare:
+SQLCODE=-206:
+Dynamic SQL Error
+SQL error code = -206
+Column unknown
+UG.STOCK_MARKET_DETAIL_ID
+At line 1, column 86
+IBCODE=isc_dsql_error
+>
+2010/12/12 23:36:34  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
+2010/12/12 23:36:35  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
+2010/12/12 23:37:28  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Prepare:
+SQLCODE=-206:
+Dynamic SQL Error
+SQL error code = -206
+Column unknown
+UG.STOCK_MARKET_DETAIL_ID
+At line 1, column 86
+IBCODE=isc_dsql_error
+>
+2010/12/12 23:37:28  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
+2010/12/12 23:37:29  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
+2010/12/12 23:39:55  Project name <StockMarket> : Module name <clsDatabaseMngr> :Routine name <GetRs> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Prepare:
+SQLCODE=-206:
+Dynamic SQL Error
+SQL error code = -206
+Column unknown
+UG.STOCK_MARKET_DETAIL_ID
+At line 1, column 86
+IBCODE=isc_dsql_error
+>
+2010/12/12 23:39:55  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
+2010/12/12 23:39:56  Project name <StockMarket> : Module name <clsDaily> :Routine name <QueryStockMarket> : Local error message <Run time error. Can't get record set. SQL1 -> SELECT SMD.* FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)ORDER BY UG.STOCK_MARKET_DETAIL_ID DESC  SQL2 -> SELECT COUNT(*)  FROM STOCK_MARKET_DETAIL SMD WHERE (SMD.STOCK_MARKET_ID = 5)> : System error message <Operation is not allowed when the object is closed.>
